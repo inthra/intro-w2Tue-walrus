@@ -1,0 +1,13 @@
+.initially-hidden {
+  display: none;
+}
+.clickable {
+  cursor: pointer;
+  color: blue;
+}
+.clickable:hover {
+  text-decoration: underline;
+}
+h1{
+  color: red;
+}
