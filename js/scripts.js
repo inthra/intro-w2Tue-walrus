@@ -1,8 +1,7 @@
 $().ready(function(){
 
   $(".clickable").click(function(){
-    $(".initially-hidden").toggle();
-    $(".initially-shown").toggle();
+    $(".initially-hidden").fadeToggle();
+    $(".initially-shown").fadeToggle();
   });
-
 });
